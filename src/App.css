@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,56 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+form{
+  width:1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+}
+form input{
+  flex-basis:80% ;
+  height: 30px;
+
+}
+form button{
+  flex-basis: 20%;
+}
+.outerDiv
+{
+  
+  width: 1170px;
+  margin: auto;
+}
+.outerDiv ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-top: 50px;
+}
+.outerDiv ul li{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: left;
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.outerDiv ul li span{
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+ 
+}
+.comple
+{
+  text-decoration: line-through;
+  color: red !important;
+  background-color:yellow!important;
+  
 }
